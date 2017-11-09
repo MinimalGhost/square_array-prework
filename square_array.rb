@@ -6,6 +6,7 @@ def square_array(array)
     else
       new_arr << (num * num)
     end
+    return new_arr
   end
   puts new_arr
   # newArr = []
