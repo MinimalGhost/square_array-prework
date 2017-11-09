@@ -1,13 +1,13 @@
 def square_array(array)
   new_arr = []
-arr.each do |num|
-  if (Math.sqrt(num) % 1) == 0
-    new_arr << Math.sqrt(num).to_i
-  else
-    new_arr << (num * num)
+  arr.each do |num|
+    if (Math.sqrt(num) % 1) == 0
+      new_arr << Math.sqrt(num).to_i
+    else
+      new_arr << (num * num)
+    end
   end
-end
-puts new_arr
+  puts new_arr
   # newArr = []
   # array.each do |element|
   #   newArr.push(Math.sqrt(element).to_i)
